@@ -2,7 +2,7 @@
 home: true
 title: Home
 heroImage: logo.png
-heroText: Vue3 Map UI
+heroText: Map UI
 tagline: 30+ Vue Components for your project using Leaflet map.
 actions:
   - text: Get Started →
