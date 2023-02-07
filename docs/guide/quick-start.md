@@ -12,16 +12,22 @@ meta:
 
 ## Installation
 
-#### npm
+#### NPM
 
 ```bash
-npm install vue3-map-ui leaflet
+$ npm install vue3-map-ui leaflet
 ```
 
-#### yarn
+#### Yarn
 
 ```bash
-yarn add vue3-map-ui leaflet
+$ yarn add vue3-map-ui leaflet
+```
+
+#### pnpm
+
+```bash
+$ pnpm install vue3-map-ui leaflet
 ```
 
 ## Usage

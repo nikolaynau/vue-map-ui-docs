@@ -11,6 +11,10 @@
     "format": "prettier --write \"**/*.{js,vue,css,scss}\" --ignore-path .gitignore",
     "husky": "husky install"
   },
+  "dependencies": {
+    "leaflet": "^1.9.3",
+    "vue3-map-ui": "^0.0.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-angular": "^17.4.2",

@@ -7,8 +7,8 @@ const themeConfig = require('./theme-config');
 
 module.exports = {
   base: '/vue3-map-ui-docs/',
-  title: 'Vue3 Map UI',
-  description: 'Documentations, API, and FAQ for Vue3 Map UI',
+  title: 'Vue Map UI',
+  description: 'Documentations, API, and FAQ for Vue 3 Map UI',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
   theme: defaultTheme(themeConfig),
   plugins: [
