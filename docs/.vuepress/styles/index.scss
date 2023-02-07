@@ -1,0 +1,32 @@
+:root,
+html.dark {
+  // brand colors
+  --c-brand: #39a2db;
+  --c-brand-light: #a2dbfa;
+
+  // custom container colors
+  --c-tip: #39a2db;
+}
+
+html.dark {
+  --c-bg: #1e1e1e;
+  --c-text: rgba(255, 255, 255, 0.87);
+  --code-bg-color: #242424;
+  --c-border: rgba(84, 84, 84, 0.48);
+
+  --c-text-light: rgba(255, 255, 255, 0.87);
+  --c-text-lighter: rgba(235, 235, 235, 0.6);
+  --c-text-lightest: rgba(235, 235, 235, 0.38);
+}
+
+.home .hero .description {
+  font-size: 1.4rem;
+}
+
+.sidebar-item.sidebar-heading {
+  font-size: 1em;
+}
+
+.sidebar-item:not(.sidebar-heading) {
+  font-size: 0.9em;
+}
