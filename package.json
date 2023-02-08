@@ -1,8 +1,21 @@
 {
   "name": "vue3-map-ui-docs",
   "version": "0.0.1",
-  "description": "Vue3 map component library documentation",
+  "description": "Map component library documentation",
   "private": true,
+  "author": "Nikolay Naumenkov <nikolas.it.web@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/nikolaynau/vue3-map-ui-docs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaynau/vue3-map-ui-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikolaynau/vue3-map-ui-docs/issues"
+  },
+  "lint-staged": {
+    "*.{js,vue,css,scss}": "prettier --write"
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "vuepress dev docs",
@@ -26,18 +39,5 @@
     "lint-staged": "^13.1.1",
     "prettier": "^2.8.3",
     "vuepress": "2.0.0-beta.49"
-  },
-  "lint-staged": {
-    "*.{js,vue,css,scss}": "prettier --write"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nikolaynau/vue3-map-ui-docs.git"
-  },
-  "author": "Nikolay Naumenkov <nikolas.it.web@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nikolaynau/vue3-map-ui-docs/issues"
-  },
-  "homepage": "https://github.com/nikolaynau/vue3-map-ui-docs#readme"
+  }
 }
