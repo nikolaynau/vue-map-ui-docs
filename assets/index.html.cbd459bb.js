@@ -1,4 +1,4 @@
-import{_ as n,o as a,c as e,a as s}from"./app.df857707.js";const i={},l=s(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># NPM</span>
+import{_ as n,o as a,c as e,a as s}from"./app.289985dd.js";const i={},l=s(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># NPM</span>
 $ <span class="token function">npm</span> <span class="token function">install</span> vue3-map-ui leaflet
 
 <span class="token comment"># Yarn</span>
