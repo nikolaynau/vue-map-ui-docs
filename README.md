@@ -1,5 +1,5 @@
-# vue3-map-ui-docs
+# vue-map-ui-docs
 
-> This demo website for map component library [vue3-map-ui](https://github.com/nikolaynau/vue3-map-ui).
+> This demo website for map component library [vue-map-ui](https://github.com/nikolaynau/vue-map-ui).
 
-[Live Demo](https://nikolaynau.github.io/vue3-map-ui-docs/)
+[Live Demo](https://nikolaynau.github.io/vue-map-ui-docs/)

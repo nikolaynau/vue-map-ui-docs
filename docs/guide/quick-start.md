@@ -15,19 +15,31 @@ meta:
 #### NPM
 
 ```bash
-$ npm install vue3-map-ui leaflet
+$ npm install vue-map-ui leaflet
 ```
 
 #### Yarn
 
 ```bash
-$ yarn add vue3-map-ui leaflet
+$ yarn add vue-map-ui leaflet
 ```
 
 #### pnpm
 
 ```bash
-$ pnpm install vue3-map-ui leaflet
+$ pnpm install vue-map-ui leaflet
 ```
 
 ## Usage
+
+```html
+<script setup>
+import { VMap, VMapOsmTileLayer } from 'vue-map-ui';
+</script>
+
+<template>
+  <VMap style="height: 200px;">
+    <VMapOsmTileLayer />
+  </VMap>
+</template>
+```

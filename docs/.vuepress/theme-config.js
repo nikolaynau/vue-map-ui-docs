@@ -4,7 +4,7 @@ module.exports = {
     { text: 'Guide', link: '/guide/quick-start.md' },
     { text: 'Components', link: '/components/map/map.md' },
     { text: 'Examples', link: '/examples/' },
-    { text: 'GitHub', link: 'https://github.com/nikolaynau/vue3-map-ui' }
+    { text: 'GitHub', link: 'https://github.com/nikolaynau/vue-map-ui' }
   ],
   sidebar: {
     '/guide/': [
