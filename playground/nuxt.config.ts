@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   ssr: false,
+  app: {
+    baseURL: '/vue-map-ui-docs/playground/'
+  },
   experimental: {
     payloadExtraction: false
   },
