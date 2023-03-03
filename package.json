@@ -19,24 +19,29 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "build:vuepress": "vuepress build docs",
+    "build": "npm run build:vuepress && npm run playground:generate",
+    "postbuild": "cp -r ./playground/.output/public ./docs/.vuepress/dist/playground",
+    "playground": "nuxi dev playground",
+    "playground:generate": "nuxi generate playground",
+    "playground:prepare": "nuxi prepare playground",
     "lint": "eslint . --ext .vue,.js --fix --ignore-path .gitignore",
     "format": "prettier --write \"**/*.{js,vue,css,scss}\" --ignore-path .gitignore",
     "husky": "husky install"
   },
-  "dependencies": {
-    "leaflet": "^1.9.3",
-    "vue-map-ui": "^0.0.8"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-angular": "^17.4.4",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/tailwindcss": "^6.4.1",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vuepress/plugin-register-components": "2.0.0-beta.49",
-    "eslint": "^8.34.0",
+    "eslint": "^8.35.0",
     "eslint-plugin-vue": "^9.9.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
+    "nuxt": "^3.2.3",
+    "nuxt-vue-map-ui": "^1.0.5",
     "prettier": "^2.8.4",
     "vuepress": "2.0.0-beta.49"
   }

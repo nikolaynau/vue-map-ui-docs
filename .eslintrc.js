@@ -3,7 +3,8 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-strongly-recommended',
     'eslint:recommended',
-    '@vue/eslint-config-prettier'
+    '@vue/eslint-config-prettier',
+    '@nuxt/eslint-config'
   ],
   env: {
     node: true,
@@ -11,6 +12,7 @@ module.exports = {
     'vue/setup-compiler-macros': true
   },
   rules: {
-    'vue/component-definition-name-casing': ['error', 'kebab-case']
+    'vue/component-definition-name-casing': ['error', 'kebab-case'],
+    'vue/singleline-html-element-content-newline': 'off'
   }
 };
