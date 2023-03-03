@@ -1,11 +1,9 @@
-const { defaultTheme } = require('vuepress');
-const {
-  registerComponentsPlugin
-} = require('@vuepress/plugin-register-components');
-const path = require('path');
-const themeConfig = require('./theme-config');
+import { defaultTheme } from 'vuepress';
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import path from 'path';
+import themeConfig from './theme-config';
 
-module.exports = {
+export default {
   base: '/vue-map-ui-docs/',
   title: 'Vue Map UI',
   description: 'Documentations, API, and FAQ for Vue 3 Map UI',

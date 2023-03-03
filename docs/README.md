@@ -3,7 +3,7 @@ home: true
 title: Vue 3 UI Framework
 heroImage: logo.png
 heroText: Vue Map UI
-tagline: 30+ Vue 3 Components for your project using Leaflet map.
+tagline: Vue 3 Components for your project using Leaflet map.
 actions:
   - text: Get Started →
     link: /guide/quick-start.html

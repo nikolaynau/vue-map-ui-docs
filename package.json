@@ -17,7 +17,6 @@
     "*.{js,vue,css,scss}": "prettier --write"
   },
   "scripts": {
-    "start": "npm run dev",
     "dev": "vuepress dev docs",
     "build:vuepress": "vuepress build docs",
     "build": "npm run build:vuepress && npm run playground:generate",
@@ -25,6 +24,7 @@
     "playground": "nuxi dev playground",
     "playground:generate": "nuxi generate playground",
     "playground:prepare": "nuxi prepare playground",
+    "postinstall": "npm run playground:prepare",
     "lint": "eslint . --ext .vue,.js --fix --ignore-path .gitignore",
     "format": "prettier --write \"**/*.{js,vue,css,scss}\" --ignore-path .gitignore",
     "husky": "husky install"
@@ -35,7 +35,7 @@
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/tailwindcss": "^6.4.1",
     "@vue/eslint-config-prettier": "^7.1.0",
-    "@vuepress/plugin-register-components": "2.0.0-beta.49",
+    "@vuepress/plugin-register-components": "2.0.0-beta.61",
     "eslint": "^8.35.0",
     "eslint-plugin-vue": "^9.9.0",
     "husky": "^8.0.3",
@@ -43,6 +43,6 @@
     "nuxt": "^3.2.3",
     "nuxt-vue-map-ui": "^1.0.5",
     "prettier": "^2.8.4",
-    "vuepress": "2.0.0-beta.49"
+    "vuepress": "2.0.0-beta.61"
   }
 }

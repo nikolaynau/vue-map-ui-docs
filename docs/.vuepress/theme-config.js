@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   logo: '/logo.png',
   navbar: [
     { text: 'Guide', link: '/guide/quick-start.md' },
