@@ -1,39 +1,47 @@
+---
+sidebarDepth: 0
+---
+
 # Map
 
-The basic map component.
+Base component, contains and wrap all the other components.
 
 ## Basic usage
 
-<!-- @API -->
-<!-- @DATE: Tue, 07 Feb 2023 16:19:03 GMT -->
+Example
 
 ## Map API
 
-### Map Props
+### Map Attributes
 
-| Prop name | Description                          | Type  | Values | Default         |
-| --------- | ------------------------------------ | ----- | ------ | --------------- |
-| center    | Initial geographic center of the map | Array | -      | () =&gt; [0, 0] |
+Use map options from leaflet [documentation](https://leafletjs.com/reference.html#map).
+The table contains a list of watched attributes.
+
+| Name         | Description                                                   | Type                                                                                    | Default                  |
+| ------------ | ------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------ |
+| center       | Initial geographic center of the map                          | [LatLngExpression](/vue-map-ui-docs/components/types.html#latlngexpression)             | [0, 0]                   |
+| zoom         | Initial map zoom level                                        | `number`                                                                                | 0                        |
+| bounds       | Initial geographic bounds of the map                          | [LatLngBoundsExpression](/vue-map-ui-docs/components/types.html#latlngboundsexpression) | —                        |
+| useFly       | Initial center, zoom and bounds use fly methods               | `boolean`                                                                               | false                    |
+| elementAttrs | List of attributes that will be inherited to the map element. | `Array<string>`                                                                         | ['id', 'class', 'style'] |
 
 ### Map Events
 
-| Event name       | Properties                               | Description              |
-| ---------------- | ---------------------------------------- | ------------------------ |
-| viewport-changed | **center** `number[]` - the center point | Trigger viewport-changed |
+Use map events from leaflet [documentation](https://leafletjs.com/reference.html#map-event).
+
+| Name         | Description                   | Type                                                                        |
+| ------------ | ----------------------------- | --------------------------------------------------------------------------- |
+| view-changed | Triggers when moved map view. | [ViewChangedEvent](/vue-map-ui-docs/components/types.html#viewchangedevent) |
 
 ### Map Slots
 
-| Name    | Description  | Bindings                                       |
-| ------- | ------------ | ---------------------------------------------- |
-| default | Default slot |                                                |
-| tile    | Tile slot    | **item** `number` - an item passed to the tile |
+| Name    | Description                                     |
+| ------- | ----------------------------------------------- |
+| default | The default slot is used for all map component. |
 
 ### Map Exposes
 
-#### ref
-
-> Link to map instance
-
-#### check
-
-> Check map method <br/>`@param` Text to check<br/>`@returns` Result of checking
+| Name      | Description            | Type                                                   |
+| --------- | ---------------------- | ------------------------------------------------------ |
+| map       | Leaflet map instance.  | Ref<[Map](/vue-map-ui-docs/components/types.html#map)> |
+| container | Map container element. | `Ref<HTMLElement>`                                     |

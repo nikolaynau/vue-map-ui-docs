@@ -11,7 +11,7 @@ export default {
       {
         text: 'Getting Started',
         collapsable: true,
-        children: ['/guide/introduction.md', '/guide/quick-start.md']
+        children: ['/guide/quick-start.md']
       }
     ],
     '/components/': [
@@ -20,10 +20,15 @@ export default {
         collapsable: false,
         children: [
           {
-            text: 'Map',
+            text: 'Basic',
             children: ['/components/map/map.md']
           }
         ]
+      },
+      {
+        text: 'Types',
+        collapsable: false,
+        link: '/components/types.md'
       }
     ],
     '/examples/': [
