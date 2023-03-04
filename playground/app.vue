@@ -1,3 +1,5 @@
 <template>
-  <div class="w-full h-full">Playground</div>
+  <div class="w-full h-full">
+    <NuxtPage />
+  </div>
 </template>

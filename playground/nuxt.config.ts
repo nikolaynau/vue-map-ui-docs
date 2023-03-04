@@ -9,5 +9,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-vue-map-ui'],
   vueMap: {
     normalizeStyle: false
-  }
+  },
+  css: ['~/assets/css/main.css']
 });

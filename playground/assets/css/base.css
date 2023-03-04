@@ -1,0 +1,8 @@
+html,
+body {
+  @apply w-full h-full overflow-hidden;
+}
+
+#__nuxt {
+  @apply w-full h-full;
+}

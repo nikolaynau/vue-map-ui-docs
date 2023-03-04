@@ -1,0 +1,22 @@
+.demo {
+  border: 1px solid var(--c-border);
+}
+
+.demo-display {
+  position: relative;
+  padding: 1.5rem;
+}
+
+.demo-frame-container {
+  height: 100%;
+}
+
+.demo-frame {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
