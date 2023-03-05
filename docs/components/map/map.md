@@ -8,7 +8,9 @@ Base component, contains and wrap all the other components.
 
 ## Basic usage
 
-<Demo url="/map/basic" />
+<ClientOnly>
+  <Demo url="/map/basic" />
+</ClientOnly>
 
 ## Map API
 
