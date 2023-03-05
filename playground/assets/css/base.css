@@ -1,8 +1,12 @@
 html,
-body {
-  @apply w-full h-full overflow-hidden;
-}
-
+body,
 #__nuxt {
   @apply w-full h-full;
+}
+
+body {
+  @apply overflow-hidden;
+
+  background-color: var(--c-bg);
+  color: var(--c-text);
 }

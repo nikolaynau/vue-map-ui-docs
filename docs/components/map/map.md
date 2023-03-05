@@ -6,11 +6,9 @@ sidebarDepth: 0
 
 Base component, contains and wrap all the other components.
 
-<Demo url="/basic-map" />
-
 ## Basic usage
 
-Example
+<Demo url="/map/basic" />
 
 ## Map API
 

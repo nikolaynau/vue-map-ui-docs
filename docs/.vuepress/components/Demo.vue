@@ -1,6 +1,8 @@
 <script setup lang="ts">
-import { ref, computed, StyleValue } from 'vue';
+import { ref, computed, StyleValue, onUnmounted } from 'vue';
 import LoadPanel from './LoadPanel.vue';
+import { getUrl } from '../utils/playground';
+import { usePlaygroundTheme } from '../composables/usePlaygroundTheme';
 
 export interface Props {
   url?: string;
@@ -10,27 +12,19 @@ export interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  height: '25rem',
-  baseUrl: '/vue-map-ui-docs/playground/'
+  height: '25rem'
 });
 
 const loading = ref(true);
+const frame = ref<HTMLIFrameElement | null>(null);
+usePlaygroundTheme(frame);
 
 const styles = computed<StyleValue>(() => ({
   width: props.width,
   height: props.height
 }));
 
-function normalizeUrl(url: string) {
-  if (url.startsWith('/')) {
-    return url.slice(1);
-  }
-  return url;
-}
-
-const frameUrl = computed(
-  () => `${props.baseUrl}${normalizeUrl(props.url ?? '')}`
-);
+const frameUrl = computed(() => getUrl(props.baseUrl, props.url));
 
 function onLoad() {
   loading.value = false;
@@ -42,7 +36,12 @@ function onLoad() {
     <div v-if="url" class="demo-display" :style="styles">
       <LoadPanel v-if="loading" />
       <div class="demo-frame-container">
-        <iframe class="demo-frame" :src="frameUrl" @load="onLoad"></iframe>
+        <iframe
+          ref="frame"
+          class="demo-frame"
+          :src="frameUrl"
+          @load="onLoad"
+        ></iframe>
       </div>
     </div>
   </div>

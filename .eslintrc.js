@@ -13,6 +13,9 @@ module.exports = {
   },
   rules: {
     'vue/component-definition-name-casing': ['error', 'kebab-case'],
-    'vue/singleline-html-element-content-newline': 'off'
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'vue/no-multiple-template-root': 'off',
+    'vue/html-self-closing': 'off'
   }
 };
