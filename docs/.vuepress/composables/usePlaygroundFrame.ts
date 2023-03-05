@@ -5,7 +5,11 @@ export interface UsePlaygroundFrameReturn {
   send<T = any>(data: T): void;
 }
 
-const ALLOW_ORIGINS = ['http://localhost:3000', 'https://github.com'];
+const ALLOW_ORIGINS = [
+  'http://localhost:3000',
+  'https://github.com',
+  'https://nikolaynau.github.io'
+];
 
 export function usePlaygroundFrame(
   frameElement: Ref<HTMLIFrameElement | null>

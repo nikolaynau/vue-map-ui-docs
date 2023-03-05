@@ -1,4 +1,8 @@
-const ALLOW_ORIGINS = ['http://localhost:8080', 'https://github.com'];
+const ALLOW_ORIGINS = [
+  'http://localhost:3000',
+  'https://github.com',
+  'https://nikolaynau.github.io'
+];
 
 export function useParentTheme() {
   function onReceiveMessage(e: MessageEvent) {
