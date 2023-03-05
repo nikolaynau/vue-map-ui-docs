@@ -15,7 +15,7 @@ function onViewChanged(e: ViewChangedEvent) {
 
 <template>
   <div class="flex flex-col w-full h-full">
-    <div class="flex-grow min-h-0">
+    <div class="flex-grow basis-full">
       <VMap :center="center" :zoom="zoom" @view-changed="onViewChanged">
         <VMapOsmTileLayer />
       </VMap>
