@@ -1,5 +1,5 @@
-# vue-map-ui-docs
+# vuemap.org
 
-> This demo website for map component library [vue-map-ui](https://github.com/nikolaynau/vue-map-ui).
+> Website about map component library [vue-map-ui](https://github.com/nikolaynau/vue-map-ui).
 
-[Live Demo](https://nikolaynau.github.io/vue-map-ui-docs/)
+Read more [vuemap.org](https://vuemap.org)
