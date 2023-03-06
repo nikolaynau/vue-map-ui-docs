@@ -44,6 +44,14 @@ function onLoad() {
         ></iframe>
       </div>
     </div>
+    <div class="demo-actions">
+      <Icon class="demo-action" title="View on GitHub">
+        <GithubIcon />
+      </Icon>
+      <Icon class="demo-action" title="View source">
+        <ChevronsIcon />
+      </Icon>
+    </div>
   </div>
 </template>
 

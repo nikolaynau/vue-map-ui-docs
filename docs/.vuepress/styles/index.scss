@@ -34,3 +34,7 @@ html.dark {
 tr:nth-child(2n) {
   background-color: transparent;
 }
+
+h2 + .demo {
+  border-top: none;
+}

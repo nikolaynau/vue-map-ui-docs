@@ -20,7 +20,7 @@ div.spinner {
 div.spinner div {
   width: 6%;
   height: 16%;
-  background: #fff;
+  background: #808080;
   position: absolute;
   left: 49%;
   top: 43%;
@@ -28,6 +28,10 @@ div.spinner div {
   border-radius: 50px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   animation: fade 1s linear infinite;
+}
+
+html.dark div.spinner div {
+  background: #fff;
 }
 
 @keyframes fade {
