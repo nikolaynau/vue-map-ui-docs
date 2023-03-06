@@ -1,0 +1,1 @@
+import{_ as n,p as o,q as s,s as _}from"./framework-5866ffd3.js";const c={},t={class:"v-icon"};function r(e,a){return o(),s("i",t,[_(e.$slots,"default")])}const f=n(c,[["render",r],["__file","Icon.vue"]]);export{f as default};
