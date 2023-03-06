@@ -20,7 +20,7 @@ function onViewChanged(e: ViewChangedEvent) {
         <VMapOsmTileLayer />
       </VMap>
     </div>
-    <div class="px-1 pt-2 flex-shrink-0 text-sm overflow-hidden">
+    <div class="px-1 pt-3 flex-shrink-0 text-sm overflow-hidden">
       center: {{ center }}, zoom: {{ zoom }}, bounds: {{ bounds }}
     </div>
   </div>
