@@ -1,7 +1,16 @@
+<script setup lang="ts">
+export interface Props {
+  tag?: string;
+}
+
+withDefaults(defineProps<Props>(), {
+  tag: 'i'
+});
+</script>
 <template>
-  <i class="v-icon">
+  <component :is="tag" class="v-icon">
     <slot></slot>
-  </i>
+  </component>
 </template>
 
 <style lang="scss">

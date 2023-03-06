@@ -44,3 +44,22 @@
 .demo-action:hover {
   color: var(--c-text);
 }
+
+.demo-source pre,
+.demo-source pre[class*='language-'] {
+  margin: 0;
+}
+
+/* expand anim */
+.demo-source-expand-enter-active,
+.demo-source-expand-leave-active {
+  transition-property: height;
+  transition-duration: 0.15s;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+.demo-source-expand-enter-from,
+.demo-source-expand-leave-to {
+  height: 0 !important;
+}

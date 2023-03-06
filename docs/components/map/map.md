@@ -9,7 +9,11 @@ Base component, contains and wrap all the other components.
 ## Basic usage
 
 <ClientOnly>
-  <Demo url="/map/basic" />
+  <Demo url="/map/basic" >
+  
+  @[code vue:no-line-numbers](@playground/map/basic.vue)
+  
+  </Demo>
 </ClientOnly>
 
 ## Map API

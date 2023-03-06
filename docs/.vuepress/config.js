@@ -1,7 +1,9 @@
 import { defaultTheme } from 'vuepress';
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
-import path from 'path';
+import { getDirname, path } from '@vuepress/utils';
 import themeConfig from './theme-config';
+
+const __dirname = getDirname(import.meta.url);
 
 export default {
   base: '/vue-map-ui-docs/',
@@ -15,5 +17,14 @@ export default {
         componentsDir: path.resolve(__dirname, './components')
       })
     ]
-  ]
+  ],
+  markdown: {
+    importCode: {
+      handleImportPath: str =>
+        str.replace(
+          /^@playground/,
+          path.resolve(__dirname, '../../playground/pages')
+        )
+    }
+  }
 };

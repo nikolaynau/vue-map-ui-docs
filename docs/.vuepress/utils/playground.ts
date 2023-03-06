@@ -9,3 +9,9 @@ export function getBaseUrl(): string {
 export function getUrl(baseUrl?: string, urlPath?: string): string {
   return `${baseUrl ?? getBaseUrl()}${normalizeUrl(urlPath ?? '')}`;
 }
+
+export function getGitHubUrl(urlPath?: string): string {
+  return `https://github.com/nikolaynau/vue-map-ui-docs/tree/master/playground/pages/${normalizeUrl(
+    urlPath ?? ''
+  )}.vue`;
+}
