@@ -2,7 +2,7 @@
 home: true
 title: Vue 3 UI Framework
 heroImage: logo.png
-heroText: Vue Map UI
+heroText: Vue Map
 tagline: Vue 3 Components for your project using Leaflet map.
 actions:
   - text: Get Started →
@@ -23,20 +23,35 @@ footer: MIT Licensed | Copyright © 2023
 
 ## Installation
 
-```bash
-# NPM
+<CodeGroup>
+  <CodeGroupItem title="NPM" active>
+
+```bash:no-line-numbers
 $ npm install vue-map-ui leaflet
+```
 
-# Yarn
+  </CodeGroupItem>
+
+  <CodeGroupItem title="YARN">
+
+```bash:no-line-numbers
 $ yarn add vue-map-ui leaflet
+```
 
-# pnpm
+  </CodeGroupItem>
+
+  <CodeGroupItem title="PNPM">
+
+```bash:no-line-numbers
 $ pnpm install vue-map-ui leaflet
 ```
 
+  </CodeGroupItem>
+</CodeGroup>
+
 ## Usage
 
-```html
+```vue
 <script setup>
 import { VMap, VMapOsmTileLayer } from 'vue-map-ui';
 </script>

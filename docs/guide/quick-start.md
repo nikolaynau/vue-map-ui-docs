@@ -13,23 +13,31 @@ meta:
 
 ## Installation
 
-#### NPM
+<CodeGroup>
+  <CodeGroupItem title="NPM" active>
 
-```bash
+```bash:no-line-numbers
 $ npm install vue-map-ui leaflet
 ```
 
-#### Yarn
+  </CodeGroupItem>
 
-```bash
+  <CodeGroupItem title="YARN">
+
+```bash:no-line-numbers
 $ yarn add vue-map-ui leaflet
 ```
 
-#### pnpm
+  </CodeGroupItem>
 
-```bash
+  <CodeGroupItem title="PNPM">
+
+```bash:no-line-numbers
 $ pnpm install vue-map-ui leaflet
 ```
+
+  </CodeGroupItem>
+</CodeGroup>
 
 ## Usage
 
@@ -48,9 +56,9 @@ createApp(App).mount('#app');
 
 Map.vue
 
-```html
+```vue
 <script setup>
-  import { VMap, VMapOsmTileLayer } from 'vue-map-ui';
+import { VMap, VMapOsmTileLayer } from 'vue-map-ui';
 </script>
 
 <template>
@@ -116,7 +124,7 @@ If you use volar, please add the global component type definition to `compilerOp
 }
 ```
 
-## Type definitions
+## Typescript
 
 If you use typescript, please add the type definitions fot `leaflet` library.
 
@@ -137,7 +145,10 @@ Then add the code below into your config file.
 ```js
 // nuxt.config.ts
 export default defineNuxtConfig({
-  modules: ['nuxt-vue-map-ui']
+  modules: ['nuxt-vue-map-ui'],
+  vueMap: {
+    /** Options */
+  }
 });
 ```
 

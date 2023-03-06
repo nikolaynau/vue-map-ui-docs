@@ -6,7 +6,7 @@ import themeConfig from './theme-config';
 const __dirname = getDirname(import.meta.url);
 
 export default {
-  title: 'Vue Map UI',
+  title: 'Vue Map',
   description: 'Documentations, API, and FAQ for Vue 3 Map UI',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
   theme: defaultTheme(themeConfig),
