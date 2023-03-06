@@ -1,0 +1,1 @@
+import{c as o,p as a,U as n,V as s,s as c,a8 as _,_ as l}from"./framework-885bc257.js";const r=o({__name:"Icon",props:{tag:{default:"i"}},setup(e){return(t,p)=>(a(),n(_(e.tag),{class:"v-icon"},{default:s(()=>[c(t.$slots,"default")]),_:3}))}});const f=l(r,[["__file","Icon.vue"]]);export{f as default};

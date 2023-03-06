@@ -1,4 +1,4 @@
-import{_ as n,p as a,q as s,a1 as t}from"./framework-5866ffd3.js";const e={},p=t(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># NPM</span>
+import{_ as n,p as a,q as s,a1 as t}from"./framework-885bc257.js";const e={},p=t(`<h2 id="installation" tabindex="-1"><a class="header-anchor" href="#installation" aria-hidden="true">#</a> Installation</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># NPM</span>
 $ <span class="token function">npm</span> <span class="token function">install</span> vue-map-ui leaflet
 
 <span class="token comment"># Yarn</span>
