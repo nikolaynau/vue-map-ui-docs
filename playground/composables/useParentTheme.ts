@@ -2,7 +2,8 @@ const ALLOW_ORIGINS = [
   'http://localhost:3000',
   'http://localhost:8080',
   'https://github.com',
-  'https://nikolaynau.github.io'
+  'https://nikolaynau.github.io',
+  'https://vuemap.org'
 ];
 
 export function useParentTheme() {
