@@ -4,7 +4,7 @@ sidebarDepth: 0
 
 # Map
 
-Base component, contains and wrap all the other components.
+The `VMap` component is used to create a map. This base component contains and wraps all other components.
 
 ## Basic usage
 

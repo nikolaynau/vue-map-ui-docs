@@ -20,7 +20,7 @@ export default {
         collapsable: false,
         children: [
           {
-            text: 'Basic',
+            text: 'Map',
             children: ['/components/map/map.md']
           }
         ]
