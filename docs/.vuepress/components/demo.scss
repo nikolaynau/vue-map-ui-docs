@@ -26,7 +26,7 @@
   align-items: center;
   justify-content: flex-end;
 
-  padding: 0.5rem;
+  padding: 0 0.5rem;
   height: 2.5rem;
   box-sizing: border-box;
 
@@ -35,7 +35,7 @@
 }
 
 .demo-action {
-  margin: 0 0.5rem;
+  padding: 0.5rem;
   cursor: pointer;
   color: var(--c-text-lighter);
   transition: 0.2s;
@@ -47,6 +47,11 @@
 
 .demo-source pre,
 .demo-source pre[class*='language-'] {
+  margin: 0;
+}
+
+.demo-source div[class*='language-'] {
+  border-radius: 0;
   margin: 0;
 }
 
