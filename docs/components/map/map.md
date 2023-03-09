@@ -9,29 +9,28 @@ The `VMap` component is used to create a map. This base component contains and w
 ## Basic usage
 
 <ClientOnly>
-  <Demo url="/map/basic" >
+  <Demo url="/map/basic-map" >
   
-  @[code vue:no-line-numbers](@playground/map/basic.vue)
+  @[code vue:no-line-numbers](@playground/map/basic-map.vue)
   
   </Demo>
 </ClientOnly>
 
-## Map API
+## API
 
-### Map Attributes
+### Attributes
 
 Use map options from leaflet [documentation](https://leafletjs.com/reference.html#map).
-The table contains a list of watched attributes.
 
 | Name         | Description                                                   | Type                                                                    | Default                  |
 | ------------ | ------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------ |
-| center       | Initial geographic center of the map                          | [LatLngExpression](/components/types.html#latlngexpression)             | [0, 0]                   |
-| zoom         | Initial map zoom level                                        | `number`                                                                | 0                        |
-| bounds       | Initial geographic bounds of the map                          | [LatLngBoundsExpression](/components/types.html#latlngboundsexpression) | —                        |
-| useFly       | Initial center, zoom and bounds use fly methods               | `boolean`                                                               | false                    |
+| center       | Initial geographic center of the map.                         | [LatLngExpression](/components/types.html#latlngexpression)             | [0, 0]                   |
+| zoom         | Initial map zoom level.                                       | `number`                                                                | 0                        |
+| bounds       | Initial geographic bounds of the map.                         | [LatLngBoundsExpression](/components/types.html#latlngboundsexpression) | —                        |
+| useFly       | Initial center, zoom and bounds use fly methods.              | `boolean`                                                               | false                    |
 | elementAttrs | List of attributes that will be inherited to the map element. | `Array<string>`                                                         | ['id', 'class', 'style'] |
 
-### Map Events
+### Events
 
 Use map events from leaflet [documentation](https://leafletjs.com/reference.html#map-event).
 
@@ -39,13 +38,13 @@ Use map events from leaflet [documentation](https://leafletjs.com/reference.html
 | ------------ | ----------------------------- | ----------------------------------------------------------- |
 | view-changed | Triggers when moved map view. | [ViewChangedEvent](/components/types.html#viewchangedevent) |
 
-### Map Slots
+### Slots
 
 | Name    | Description                                     |
 | ------- | ----------------------------------------------- |
 | default | The default slot is used for all map component. |
 
-### Map Exposes
+### Exposes
 
 | Name      | Description            | Type                                   |
 | --------- | ---------------------- | -------------------------------------- |

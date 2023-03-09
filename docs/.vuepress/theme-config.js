@@ -22,6 +22,14 @@ export default {
           {
             text: 'Map',
             children: ['/components/map/map.md']
+          },
+          {
+            text: 'Layer',
+            children: ['/components/layer/tile-layer.md']
+          },
+          {
+            text: 'Tile',
+            children: ['/components/tile/osm-tile-layer.md']
           }
         ]
       },

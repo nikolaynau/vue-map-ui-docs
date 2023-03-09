@@ -4,6 +4,10 @@
 
 [Map](https://leafletjs.com/reference.html#map)
 
+## TileLayer
+
+[TileLayer](https://leafletjs.com/reference.html#tilelayer)
+
 ## LatLngExpression
 
 [LatLng](https://leafletjs.com/reference.html#latlng) | `{ lat: number; lng: number; }` | `[number, number]`
