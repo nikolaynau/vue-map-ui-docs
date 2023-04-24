@@ -7,28 +7,43 @@ type NavItem = {
 type NavItemGroup = {
   title: string;
   children: Array<NavItem>;
+  order: number;
 };
 
-const navItems = reactive<NavItemGroup[]>([
-  {
-    title: 'Map',
-    children: [{ title: 'Basic Map', url: '/map/basic-map' }]
-  },
-  {
-    title: 'Layer',
-    children: [{ title: 'Basic Tile Layer', url: '/layer/basic-tile-layer' }]
-  },
-  {
-    title: 'Tile',
-    children: [
-      { title: 'Basic Osm Tile Layer', url: '/tile/basic-osm-tile-layer' },
-      {
-        title: 'Basic ArcGis Tile Layer',
-        url: '/tile/basic-arc-gis-tile-layer'
-      }
-    ]
+const ORDER: Record<string, number> = Object.freeze({
+  map: 1,
+  layer: 2,
+  control: 3,
+  tile: 4
+});
+
+const list = import.meta.glob('./*/*.vue');
+const groups: Record<string, NavItemGroup> = {};
+for (const [fileName] of Object.entries(list)) {
+  const parts = fileName.split('/');
+  const groupKey = parts[parts.length - 2];
+  const title = parts[parts.length - 1].slice(0, -4);
+  const url = `/${groupKey}/${title}`;
+
+  if (!groups[groupKey]) {
+    groups[groupKey] = {
+      title: groupKey.slice(0, 1).toUpperCase() + groupKey.slice(1),
+      order: ORDER[groupKey],
+      children: []
+    };
   }
-]);
+
+  groups[groupKey].children.push({
+    title: toPascalCase(title),
+    url
+  });
+}
+
+const navItems = reactive<NavItemGroup[]>(
+  Object.keys(groups).map(k => groups[k])
+);
+
+navItems.sort((a, b) => a.order - b.order);
 </script>
 
 <template>
