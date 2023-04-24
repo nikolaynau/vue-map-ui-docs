@@ -21,7 +21,11 @@ const navItems = reactive<NavItemGroup[]>([
   {
     title: 'Tile',
     children: [
-      { title: 'Basic Osm Tile Layer', url: '/tile/basic-osm-tile-layer' }
+      { title: 'Basic Osm Tile Layer', url: '/tile/basic-osm-tile-layer' },
+      {
+        title: 'Basic ArcGis Tile Layer',
+        url: '/tile/basic-arc-gis-tile-layer'
+      }
     ]
   }
 ]);

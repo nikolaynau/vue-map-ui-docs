@@ -1,5 +1,6 @@
 export default {
   logo: '/logo.png',
+  contributors: false,
   navbar: [
     { text: 'Guide', link: '/guide/quick-start.md' },
     { text: 'Components', link: '/components/map/map.md' },
@@ -29,7 +30,10 @@ export default {
           },
           {
             text: 'Tile',
-            children: ['/components/tile/osm-tile-layer.md']
+            children: [
+              '/components/tile/osm-tile-layer.md',
+              '/components/tile/arc-gis-tile-layer.md'
+            ]
           }
         ]
       },
