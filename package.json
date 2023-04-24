@@ -30,19 +30,19 @@
     "husky": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
-    "@commitlint/config-angular": "^17.4.4",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-angular": "^17.6.1",
     "@nuxt/eslint-config": "^0.1.1",
-    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@nuxtjs/tailwindcss": "^6.6.6",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vuepress/plugin-register-components": "2.0.0-beta.61",
-    "eslint": "^8.35.0",
-    "eslint-plugin-vue": "^9.9.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.2",
-    "nuxt": "^3.2.3",
-    "nuxt-vue-map-ui": "^1.0.7",
-    "prettier": "^2.8.4",
+    "lint-staged": "^13.2.1",
+    "nuxt": "^3.4.2",
+    "nuxt-vue-map-ui": "^1.0.8",
+    "prettier": "^2.8.8",
     "vuepress": "2.0.0-beta.61"
   }
 }
