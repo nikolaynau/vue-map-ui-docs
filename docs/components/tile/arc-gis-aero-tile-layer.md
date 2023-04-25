@@ -1,18 +1,18 @@
 ---
-title: Open Street Map
+title: Arc Gis Aero
 sidebarDepth: 0
 ---
 
-# OsmTileLayer
+# ArcGisTileLayer
 
-The `VMapOsmTileLayer` component is used to load and display [Open Street Map](https://wiki.openstreetmap.org/wiki/Tiles) tiles on the map.
+The `VMapArcGisAeroTileLayer` component is used to load and display [ArcGIS](https://www.arcgis.com) tiles on the map.
 
 ## Basic usage
 
 <ClientOnly>
-  <Demo url="/tile/basic-osm-tile-layer" >
+  <Demo url="/tile/basic-arc-gis-aero-tile-layer" >
   
-  @[code vue:no-line-numbers](@playground/tile/basic-osm-tile-layer.vue)
+  @[code vue:no-line-numbers](@playground/tile/basic-arc-gis-aero-tile-layer.vue)
   
   </Demo>
 </ClientOnly>
@@ -23,10 +23,10 @@ The `VMapOsmTileLayer` component is used to load and display [Open Street Map](h
 
 Use tile layer options from leaflet [documentation](https://leafletjs.com/reference.html#tilelayer).
 
-| Name    | Description                                                                       | Type      | Default           |
-| ------- | --------------------------------------------------------------------------------- | --------- | ----------------- |
-| title   | Name of layer. Used in [layers control](/components/control/layers-control.html). | `string`  | 'Open Street Map' |
-| overlay | Overlay layer. Used in [layers control](/components/control/layers-control.html). | `boolean` | false             |
+| Name    | Description                                                                       | Type      | Default        |
+| ------- | --------------------------------------------------------------------------------- | --------- | -------------- |
+| title   | Name of layer. Used in [layers control](/components/control/layers-control.html). | `string`  | 'Arc Gis Aero' |
+| overlay | Overlay layer. Used in [layers control](/components/control/layers-control.html). | `boolean` | false          |
 
 ### Events
 

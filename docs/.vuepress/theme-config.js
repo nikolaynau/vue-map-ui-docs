@@ -29,10 +29,17 @@ export default {
             children: ['/components/layer/tile-layer.md']
           },
           {
+            text: 'Control',
+            children: ['/components/control/layers-control.md']
+          },
+          {
             text: 'Tile',
             children: [
               '/components/tile/osm-tile-layer.md',
-              '/components/tile/arc-gis-tile-layer.md'
+              '/components/tile/arc-gis-tile-layer.md',
+              '/components/tile/arc-gis-aero-tile-layer.md',
+              '/components/tile/mapbox-tile-layer.md',
+              '/components/tile/ocm-tile-layer.md'
             ]
           }
         ]
