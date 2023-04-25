@@ -25,7 +25,7 @@ Use tile layer options from leaflet [documentation](https://leafletjs.com/refere
 
 | Name | Description              | Type   | Default |
 | ---- | ------------------------ | ------ | ------- |
-| url  | Tile layer URL template. | string | —       |
+| url  | Tile layer URL template. | `string` | —       |
 
 ### Events
 
