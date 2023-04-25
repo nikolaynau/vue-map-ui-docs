@@ -32,7 +32,8 @@ export default {
             text: 'Control',
             children: [
               '/components/control/zoom-control.md',
-              '/components/control/layers-control.md'
+              '/components/control/layers-control.md',
+              '/components/control/scale-control.md'
             ]
           },
           {
