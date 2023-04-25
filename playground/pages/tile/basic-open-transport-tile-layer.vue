@@ -4,6 +4,8 @@ const runtimeConfig = useRuntimeConfig();
 
 <template>
   <VMap>
-    <VMapOcmTileLayer :api-key="runtimeConfig.public.ocmApiKey" />
+    <VMapOpenTransportTileLayer
+      :api-key="runtimeConfig.public.openTransportApiKey"
+    />
   </VMap>
 </template>

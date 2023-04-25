@@ -13,7 +13,9 @@ const runtimeConfig = useRuntimeConfig();
       />
       <VMapArcGisTileLayer />
       <VMapArcGisAeroTileLayer />
-      <VMapOcmTileLayer :api-key="runtimeConfig.public.ocmApiKey" />
+      <VMapOpenTransportTileLayer
+        :api-key="runtimeConfig.public.openTransportApiKey"
+      />
       <VMapGoogleTileLayer title="Google Streets" />
       <VMapGoogleTileLayer title="Google Hybrid" type="hybrid" />
       <VMapGoogleTileLayer title="Google Terrain" type="terrain" />

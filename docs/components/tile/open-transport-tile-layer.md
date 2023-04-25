@@ -3,9 +3,9 @@ title: Open Transport
 sidebarDepth: 0
 ---
 
-# OcmTileLayer
+# OpenTransportTileLayer
 
-The `VMapOcmTileLayer` component is used to load and display [Thunderforest](https://www.thunderforest.com) tiles on the map.
+The `VMapOpenTransportTileLayer` component is used to load and display [Thunderforest](https://www.thunderforest.com) tiles on the map.
 
 ## Basic usage
 
