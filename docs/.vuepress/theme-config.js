@@ -44,7 +44,8 @@ export default {
               '/components/tile/arc-gis-tile-layer.md',
               '/components/tile/arc-gis-aero-tile-layer.md',
               '/components/tile/mapbox-tile-layer.md',
-              '/components/tile/open-transport-tile-layer.md'
+              '/components/tile/open-transport-tile-layer.md',
+              '/components/tile/google-tile-layer.md'
             ]
           }
         ]
