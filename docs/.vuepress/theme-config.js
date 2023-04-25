@@ -33,7 +33,8 @@ export default {
             children: [
               '/components/control/zoom-control.md',
               '/components/control/layers-control.md',
-              '/components/control/scale-control.md'
+              '/components/control/scale-control.md',
+              '/components/control/attribution-control.md'
             ]
           },
           {

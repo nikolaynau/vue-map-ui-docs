@@ -28,7 +28,7 @@ Use map options from leaflet [documentation](https://leafletjs.com/reference.htm
 | zoom         | Initial map zoom level.                                       | `number`                                                                | 0                        |
 | bounds       | Initial geographic bounds of the map.                         | [LatLngBoundsExpression](/components/types.html#latlngboundsexpression) | —                        |
 | useFly       | Initial center, zoom and bounds use fly methods.              | `boolean`                                                               | false                    |
-| elementAttrs | List of attributes that will be inherited to the map element. | `Array<string>`                                                         | ['id', 'class', 'style'] |
+| elementAttrs | List of attributes that will be inherited to the map element. | `string[]`                                                              | ['id', 'class', 'style'] |
 
 ### Events
 
