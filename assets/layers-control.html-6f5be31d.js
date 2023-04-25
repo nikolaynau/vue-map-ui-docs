@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-f3cd0d56","path":"/components/control/layers-control.html","title":"Layers Control","lang":"en-US","frontmatter":{"title":"Layers Control","sidebarDepth":0},"headers":[],"git":{"updatedTime":1682427581000},"filePathRelative":"components/control/layers-control.md"}');export{t as data};
