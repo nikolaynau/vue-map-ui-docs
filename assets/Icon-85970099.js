@@ -1,0 +1,1 @@
+import{i as o,o as t,k as n,w as s,p as a,q as _,_ as c}from"./app-9e779a6f.js";const r=o({__name:"Icon",props:{tag:{default:"i"}},setup(l){return(e,p)=>(t(),n(_(e.tag),{class:"v-icon"},{default:s(()=>[a(e.$slots,"default")]),_:3}))}});const u=c(r,[["__file","Icon.vue"]]);export{u as default};
