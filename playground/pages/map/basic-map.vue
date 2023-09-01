@@ -18,6 +18,8 @@ function onViewChanged(e: ViewChangedEvent) {
     <div class="flex-grow basis-full">
       <VMap :center="center" :zoom="zoom" @view-changed="onViewChanged">
         <VMapOsmTileLayer />
+        <VMapZoomControl />
+        <VMapAttributionControl />
       </VMap>
     </div>
     <div class="px-1 pt-3 flex-shrink-0 text-sm overflow-hidden">

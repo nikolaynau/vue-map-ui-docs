@@ -53,12 +53,13 @@ $ pnpm install vue-map-ui leaflet
 
 ```vue
 <script setup>
-import { VMap, VMapOsmTileLayer } from 'vue-map-ui';
+import { VMap, VMapOsmTileLayer, VMapZoomControl } from 'vue-map-ui';
 </script>
 
 <template>
   <VMap style="height: 200px;">
     <VMapOsmTileLayer />
+    <VMapZoomControl />
   </VMap>
 </template>
 ```
