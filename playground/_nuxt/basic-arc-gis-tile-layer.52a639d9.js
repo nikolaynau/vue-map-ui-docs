@@ -1,1 +1,0 @@
-import{c as e,C as c,X as n}from"./index.es.f9c1991f.js";import{_}from"./_plugin-vue_export-helper.c27b6911.js";import{f as a,w as r,o as s,b as p}from"./entry.f7e8d728.js";const i=e(c),l=e(n),m={};function f(d,u){const t=i,o=l;return s(),a(o,null,{default:r(()=>[p(t)]),_:1})}const y=_(m,[["render",f]]);export{y as default};
