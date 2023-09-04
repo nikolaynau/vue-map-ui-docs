@@ -17,20 +17,18 @@
     "*.{js,vue,css,scss}": "prettier --write"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build:vuepress": "vuepress build docs",
-    "build": "npm run build:vuepress && npm run playground:generate",
-    "postbuild": "cp -r ./playground/.output/public ./docs/.vuepress/dist/playground",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "build": "npm run docs:build && npm run playground:generate",
+    "postbuild": "cp -r ./playground/.output/public ./docs/.vitepress/dist/playground",
     "playground": "nuxi dev playground",
     "playground:generate": "nuxi generate playground",
     "playground:prepare": "nuxi prepare playground",
     "postinstall": "npm run playground:prepare",
-    "lint": "eslint . --ext .vue,.js --fix --ignore-path .gitignore",
-    "format": "prettier --write \"**/*.{js,vue,css,scss}\" --ignore-path .gitignore",
-    "husky": "husky install",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "lint": "eslint . --ext .vue,.js,.ts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write \"**/*.{js,ts,mts,vue,css,scss}\" --ignore-path .gitignore",
+    "husky": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
@@ -38,7 +36,6 @@
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@vue/eslint-config-prettier": "^8.0.0",
-    "@vuepress/plugin-register-components": "2.0.0-beta.67",
     "eslint": "^8.48.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.3",
@@ -46,7 +43,6 @@
     "nuxt": "^3.7.0",
     "nuxt-vue-map-ui": "^1.0.11",
     "prettier": "^3.0.3",
-    "vitepress": "^1.0.0-rc.10",
-    "vuepress": "2.0.0-beta.67"
+    "vitepress": "^1.0.0-rc.10"
   }
 }
