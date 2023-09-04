@@ -5,6 +5,9 @@ hero:
   name: 'Vue Map'
   text: 'UI Framework for Vue.js'
   tagline: Based on leaflet, component-oriented UI framework for Vue.js
+  image:
+    src: /vue-map-logo.svg
+    alt: Vue Map
   actions:
     - theme: brand
       text: Get Started

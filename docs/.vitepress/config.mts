@@ -12,7 +12,7 @@ export default defineConfig({
   markdown: { attrs: { disable: true } },
 
   themeConfig: {
-    logo: '/vue-map-logo.png',
+    logo: '/vue-map-logo.svg',
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nikolaynau/vue-map-ui' }
