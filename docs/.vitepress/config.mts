@@ -103,6 +103,10 @@ function sidebarComponents() {
         {
           text: 'Map',
           link: '/components/general/map'
+        },
+        {
+          text: 'Pane',
+          link: '/components/general/pane'
         }
       ]
     },
