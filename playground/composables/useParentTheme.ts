@@ -1,6 +1,7 @@
 const ALLOW_ORIGINS = [
   'http://localhost:3000',
   'http://localhost:8080',
+  'http://localhost:5173',
   'https://github.com',
   'https://nikolaynau.github.io',
   'https://vuemap.org'

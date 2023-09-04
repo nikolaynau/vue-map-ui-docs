@@ -31,7 +31,7 @@ export default defineConfig({
 
     sidebar: {
       '/guide/': sidebarGuide(),
-      '/api/': sidebarComponents()
+      '/components/': sidebarComponents()
     }
   }
 });
@@ -89,16 +89,70 @@ function sidebarGuide() {
 function sidebarComponents() {
   return [
     {
-      text: 'Components',
+      text: 'General',
       items: [
         {
-          text: 'General',
-          items: [
-            {
-              text: 'Map',
-              link: '/components/general/map'
-            }
-          ]
+          text: 'Map',
+          link: '/components/general/map'
+        }
+      ]
+    },
+    {
+      text: 'Layer',
+      items: [
+        {
+          text: 'Tile Layer',
+          link: '/components/layer/tile-layer'
+        }
+      ]
+    },
+    {
+      text: 'Control',
+      items: [
+        {
+          text: 'Zoom Control',
+          link: '/components/control/zoom-control'
+        },
+        {
+          text: 'Layers Control',
+          link: '/components/control/layers-control'
+        },
+        {
+          text: 'Scale Control',
+          link: '/components/control/scale-control'
+        },
+        {
+          text: 'Attribution Control',
+          link: '/components/control/attribution-control'
+        }
+      ]
+    },
+    {
+      text: 'Tile',
+      items: [
+        {
+          text: 'Open Street Map',
+          link: '/components/tile/osm-tile-layer'
+        },
+        {
+          text: 'Arc Gis',
+          link: '/components/tile/arc-gis-tile-layer'
+        },
+        {
+          text: 'Arc Gis Aero',
+          link: '/components/tile/arc-gis-aero-tile-layer'
+        },
+        {
+          text: 'Mapbox',
+          link: '/components/tile/mapbox-tile-layer'
+        },
+        {
+          text: 'Google',
+          link: '/components/tile/google-tile-layer'
+        },
+        {
+          text: 'Open Transport',
+          link: '/components/tile/open-transport-tile-layer'
         }
       ]
     }
