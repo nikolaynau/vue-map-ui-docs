@@ -32,6 +32,14 @@
 
 [LatLngBounds](https://leafletjs.com/reference.html#latlngbounds) | `[[number, number], [number, number]]`
 
+## ControlPosition
+
+`'topleft' | 'topright' | 'bottomleft' | 'bottomright'`
+
+## ExtraControlPosition
+
+`'centerleft' | 'centerright' | 'htopleft' | 'htopright' | 'htopcenter' | 'hbottomleft' | 'hbottomright' | 'hbottomcenter'`
+
 ## ViewChangedEvent
 
 This event extends the [LeafletEvent](https://leafletjs.com/reference.html#event-property).

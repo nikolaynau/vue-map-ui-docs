@@ -8,5 +8,7 @@ const runtimeConfig = useRuntimeConfig();
       id="streets-v9"
       :access-token="runtimeConfig.public.mapboxAccessToken"
     />
+    <VMapZoomControl />
+    <VMapAttributionControl />
   </VMap>
 </template>

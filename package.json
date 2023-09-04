@@ -27,7 +27,7 @@
     "playground:prepare": "nuxi prepare playground",
     "postinstall": "npm run playground:prepare",
     "lint": "eslint . --ext .vue,.js,.ts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write \"**/*.{js,ts,mts,vue,css,scss}\" --ignore-path .gitignore",
+    "format": "prettier --write \"**/*.{js,ts,mts,vue,css,scss,md}\" --ignore-path .gitignore",
     "husky": "husky install"
   },
   "devDependencies": {

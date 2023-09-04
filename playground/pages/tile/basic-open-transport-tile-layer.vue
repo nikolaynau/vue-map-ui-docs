@@ -7,5 +7,7 @@ const runtimeConfig = useRuntimeConfig();
     <VMapOpenTransportTileLayer
       :api-key="runtimeConfig.public.openTransportApiKey"
     />
+    <VMapZoomControl />
+    <VMapAttributionControl />
   </VMap>
 </template>

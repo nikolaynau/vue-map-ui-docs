@@ -18,6 +18,11 @@ The `VMapScaleControl` component is used to shows the scale of the current cente
 
 Use scale control options from leaflet [documentation](https://leafletjs.com/reference.html#control-scale).
 
+| Name     | Description                                                                                 | Type                                                                                                                             | Default       |
+| -------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| imperial | Whether to show the imperial scale line (mi/ft). Disabled by default.                       | `number`                                                                                                                         | false         |
+| position | The position of the control (one of the corners of the map). See types for possible values. | [ControlPosition](/components/types.html#controlposition) \| [ExtraControlPosition](/components/types.html#extracontrolposition) | 'bottomright' |
+
 ### Events
 
 No events.
@@ -30,6 +35,6 @@ No events.
 
 ### Exposes
 
-| Name         | Description                     | Type                                                      |
-| ------------ | ------------------------------- | --------------------------------------------------------- |
-| scaleControl | Leaflet scale control instance. | Ref<[Control.Scale](/components/types.html#control-scale)> |
+| Name         | Description                     | Type                                                               |
+| ------------ | ------------------------------- | ------------------------------------------------------------------ |
+| scaleControl | Leaflet scale control instance. | Ref<[Control.Scale](/components/types.html#control-scale) \| null> |

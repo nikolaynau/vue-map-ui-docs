@@ -6,6 +6,7 @@ const runtimeConfig = useRuntimeConfig();
   <VMap>
     <VMapLayersControl>
       <VMapOsmTileLayer />
+      <VMapZoomControl />
       <VMapMapboxTileLayer
         id="streets-v9"
         title="Mapbox Streets"

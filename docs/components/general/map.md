@@ -45,7 +45,7 @@ Use map events from leaflet [documentation](https://leafletjs.com/reference.html
 
 ### Exposes
 
-| Name      | Description            | Type                                   |
-| --------- | ---------------------- | -------------------------------------- |
-| map       | Leaflet map instance.  | Ref<[Map](/components/types.html#map)> |
-| container | Map container element. | `Ref<HTMLElement>`                     |
+| Name      | Description            | Type                                           |
+| --------- | ---------------------- | ---------------------------------------------- |
+| map       | Leaflet map instance.  | Ref<[Map](/components/types.html#map) \| null> |
+| container | Map container element. | `Ref<HTMLElement \| null>`                     |

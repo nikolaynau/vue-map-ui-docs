@@ -18,9 +18,10 @@ The `VMapZoomControl` component is used to zoom in and out of the map.
 
 Use zoom control options from leaflet [documentation](https://leafletjs.com/reference.html#control-zoom).
 
-| Name     | Description                             | Type      | Default |
-| -------- | --------------------------------------- | --------- | ------- |
-| disabled | if true, then zoom control is disabled. | `boolean` | false   |
+| Name     | Description                                                                                 | Type                                                                                                                             | Default       |
+| -------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| disabled | If true, then zoom control is disabled.                                                     | `boolean`                                                                                                                        | false         |
+| position | The position of the control (one of the corners of the map). See types for possible values. | [ControlPosition](/components/types.html#controlposition) \| [ExtraControlPosition](/components/types.html#extracontrolposition) | 'centerright' |
 
 ### Events
 
@@ -34,6 +35,6 @@ No events.
 
 ### Exposes
 
-| Name        | Description                    | Type                                                     |
-| ----------- | ------------------------------ | -------------------------------------------------------- |
-| zoomControl | Leaflet zoom control instance. | Ref<[Control.Zoom](/components/types.html#control-zoom)> |
+| Name        | Description                    | Type                                                             |
+| ----------- | ------------------------------ | ---------------------------------------------------------------- |
+| zoomControl | Leaflet zoom control instance. | Ref<[Control.Zoom](/components/types.html#control-zoom) \| null> |
