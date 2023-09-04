@@ -10,8 +10,8 @@ hero:
       text: Get Started
       link: /guide/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Components
+      link: /components/general/map
 
 features:
   - icon: 👌
