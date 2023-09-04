@@ -4,7 +4,16 @@ export default defineConfig({
   title: 'Vue Map',
   description: 'UI Framework for Vue.js',
 
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }]],
+  head: [
+    [
+      'link',
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    [
+      'link',
+      { rel: 'icon', type: 'image/png', href: '/favicon.png', sizes: '32x32' }
+    ]
+  ],
 
   lang: 'en-US',
   lastUpdated: true,
