@@ -8,6 +8,18 @@
 
 [TileLayer](https://leafletjs.com/reference.html#tilelayer)
 
+## Marker
+
+[Marker](https://leafletjs.com/reference.html#marker)
+
+## Icon
+
+[Icon](https://leafletjs.com/reference.html#icon)
+
+## DivIcon
+
+[DivIcon](https://leafletjs.com/reference.html#divicon)
+
 ## Control.Layers
 
 [Control.Layers](https://leafletjs.com/reference.html#control-layers)
