@@ -44,6 +44,10 @@
 
 [LatLngBounds](https://leafletjs.com/reference.html#latlngbounds) | `[[number, number], [number, number]]`
 
+## PointExpression
+
+[Point](https://leafletjs.com/reference.html#point) | `[number, number]`
+
 ## ControlPosition
 
 `'topleft' | 'topright' | 'bottomleft' | 'bottomright'`

@@ -118,6 +118,10 @@ function sidebarComponents() {
           link: '/components/layer/marker'
         },
         {
+          text: 'Icon',
+          link: '/components/layer/icon'
+        },
+        {
           text: 'Tile Layer',
           link: '/components/layer/tile-layer'
         }
