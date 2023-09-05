@@ -1,5 +1,5 @@
 <template>
-  <VMap :attribution-control="false">
+  <VMap>
     <VMapOsmTileLayer attribution="Open Street Map" />
     <VMapZoomControl />
     <VMapAttributionControl prefix="Leaflet" :attributions="['A', 'B']" />

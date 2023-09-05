@@ -137,6 +137,10 @@ function sidebarComponents() {
         {
           text: 'Attribution Control',
           link: '/components/control/attribution-control'
+        },
+        {
+          text: 'Control Position',
+          link: '/components/control/control-position'
         }
       ]
     },

@@ -1,5 +1,5 @@
 <template>
-  <VMap :zoom-control="false">
+  <VMap>
     <VMapOsmTileLayer />
     <VMapZoomControl />
     <VMapAttributionControl />
