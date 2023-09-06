@@ -16,7 +16,7 @@ The `VMapDivIcon` component is used to represent a lightweight icon for markers 
 
 ### Attributes
 
-Use icon options from leaflet [documentation](https://leafletjs.com/reference.html#icon).
+Use div icon options from leaflet [documentation](https://leafletjs.com/reference.html#div-icon).
 
 | Name         | Description                                                                                                                                                                                                                                               | Type                                                      | Default |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------- |

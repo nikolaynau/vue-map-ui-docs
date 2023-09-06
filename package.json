@@ -33,6 +33,9 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-angular": "^17.7.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@vue/eslint-config-prettier": "^8.0.0",
