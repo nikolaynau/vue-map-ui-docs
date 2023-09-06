@@ -122,6 +122,10 @@ function sidebarComponents() {
           link: '/components/layer/icon'
         },
         {
+          text: 'Div Icon',
+          link: '/components/layer/div-icon'
+        },
+        {
           text: 'Tile Layer',
           link: '/components/layer/tile-layer'
         }
