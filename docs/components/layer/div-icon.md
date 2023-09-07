@@ -28,6 +28,7 @@ Use div icon options from leaflet [documentation](https://leafletjs.com/referenc
 | rootClass    | Root element css class in `node` and `portal` rendering mode. You can pass the same value as in the vue `class` property.                                                                                                                                 | `any`                                                     | —       |
 | className    | A custom class name to assign to both icon and shadow images. Empty by default. You can pass the same value as in the vue `class` property.                                                                                                               | `any`                                                     | —       |
 | knownClasses | Here you can specify a list of classes that the leaflet library adds. This is necessary for the properties `className` and `class` to work correctly. By default, the list of internal classes of the leaflet library is used.                            | `string[]`                                                | —       |
+| class        | The CSS class value. You can pass the `object`, `array` and `string` value.                                                                                                                                                                               | `any`                                                     | —       |
 
 ### Events
 

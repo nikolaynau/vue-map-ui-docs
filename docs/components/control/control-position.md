@@ -19,6 +19,7 @@ The `VMapControlPosition` component is used to positioning the control on the ma
 | Name     | Description                                                                                                                                                                               | Type               | Default |
 | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------- |
 | position | Pair of string values representing the side name vertically and horizontally. Example: `['top', 'left']` and set `'topleft'` value for the `position` property in the control components. | `[string, string]` | —       |
+| class    | The CSS class value. You can pass the `object`, `array` and `string` value.                                                                                                               | `any`              | —       |
 
 ### Events
 
