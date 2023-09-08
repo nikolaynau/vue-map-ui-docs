@@ -130,6 +130,10 @@ function sidebarComponents() {
           link: '/components/layer/pin-icon'
         },
         {
+          text: 'Default Icon',
+          link: '/components/layer/default-icon'
+        },
+        {
           text: 'Tile Layer',
           link: '/components/layer/tile-layer'
         }
