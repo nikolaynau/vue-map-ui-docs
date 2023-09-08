@@ -142,6 +142,10 @@ function sidebarComponents() {
           link: '/components/layer/div-marker'
         },
         {
+          text: 'Pin Marker',
+          link: '/components/layer/pin-marker'
+        },
+        {
           text: 'Tile Layer',
           link: '/components/layer/tile-layer'
         }
