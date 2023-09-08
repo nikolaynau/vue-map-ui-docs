@@ -138,6 +138,10 @@ function sidebarComponents() {
           link: '/components/layer/icon-marker'
         },
         {
+          text: 'Div Marker',
+          link: '/components/layer/div-marker'
+        },
+        {
           text: 'Tile Layer',
           link: '/components/layer/tile-layer'
         }
