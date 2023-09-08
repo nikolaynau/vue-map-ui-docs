@@ -28,6 +28,7 @@ Use map options from leaflet [documentation](https://leafletjs.com/reference.htm
 | theme              | The color theme of the map. There are two built-in themes light and dark. The `'auto'` value automatically determines the light or dark theme. | `string \| 'light' \| 'dark' \| 'auto'`                                 | 'light' |
 | zoomControl        | Whether a [zoom control](https://leafletjs.com/reference.html#control-zoom) is added to the map by default. Disabled by default.               | `boolean`                                                               | false   |
 | attributionControl | Whether a [attribution control](https://leafletjs.com/reference.html#control-attribution) is added to the map by default. Disabled by default. | `boolean`                                                               | false   |
+| class              | The CSS class value. You can pass the `object`, `array` and `string` value.                                                                    | `any`                                                                   | —       |
 
 ### Events
 

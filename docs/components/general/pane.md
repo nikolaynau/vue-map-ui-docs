@@ -16,10 +16,11 @@ The `VMapPane` component is used to create a new pane. Panes are DOM elements us
 
 ### Attributes
 
-| Name   | Description                                               | Type     | Default |
-| ------ | --------------------------------------------------------- | -------- | ------- |
-| name   | Name of the panel, used to add markers, etc. **Required** | `string` | —       |
-| zIndex | Define the order of the panels on the map.                | `number` | —       |
+| Name   | Description                                                                 | Type     | Default |
+| ------ | --------------------------------------------------------------------------- | -------- | ------- |
+| name   | Name of the panel, used to add markers, etc. **Required**                   | `string` | —       |
+| zIndex | Define the order of the panels on the map.                                  | `number` | —       |
+| class  | The CSS class value. You can pass the `object`, `array` and `string` value. | `any`    | —       |
 
 ### Events
 
