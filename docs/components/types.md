@@ -56,6 +56,10 @@
 
 `'centerleft' | 'centerright' | 'htopleft' | 'htopright' | 'htopcenter' | 'hbottomleft' | 'hbottomright' | 'hbottomcenter'`
 
+## CrossOrigin
+
+`'anonymous' | 'use-credentials' | ''`
+
 ## ViewChangedEvent
 
 This event extends the [LeafletEvent](https://leafletjs.com/reference.html#event-property).

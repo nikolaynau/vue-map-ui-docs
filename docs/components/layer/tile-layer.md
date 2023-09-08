@@ -20,7 +20,7 @@ Use tile layer options from leaflet [documentation](https://leafletjs.com/refere
 
 | Name    | Description                                                                                         | Type      | Default |
 | ------- | --------------------------------------------------------------------------------------------------- | --------- | ------- |
-| url     | Tile layer URL template. **Required**                                                               | `string`  | —       |
+| \* url  | Tile layer URL template. **Required**                                                               | `string`  | —       |
 | title   | Name of layer, when used as a child component [layers control](/components/control/layers-control). | `string`  | —       |
 | overlay | Overlay layer, when used as a child component [layers control](/components/control/layers-control). | `boolean` | false   |
 

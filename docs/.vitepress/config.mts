@@ -134,6 +134,10 @@ function sidebarComponents() {
           link: '/components/layer/default-icon'
         },
         {
+          text: 'Icon Marker',
+          link: '/components/layer/icon-marker'
+        },
+        {
           text: 'Tile Layer',
           link: '/components/layer/tile-layer'
         }
