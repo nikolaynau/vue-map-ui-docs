@@ -18,12 +18,12 @@ The `VMapMapboxTileLayer` component is used to load and display [Mapbox](https:/
 
 Use tile layer options from leaflet [documentation](https://leafletjs.com/reference.html#tilelayer).
 
-| Name        | Description                                                                                                              | Type      | Default  |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------ | --------- | -------- |
-| id          | Id of style layers in a Mapbox. See more [Mapbox Docs](https://docs.mapbox.com/help/glossary/layer). **Required**        | `string`  | —        |
-| accessToken | Access token for loading tiles. See more [Mapbox Docs](https://docs.mapbox.com/help/glossary/access-token). **Required** | `string`  | —        |
-| title       | Name of layer, when used as a child component [layers control](/components/control/layers-control).                      | `string`  | 'Mapbox' |
-| overlay     | Overlay layer, when used as a child component [layers control](/components/control/layers-control).                      | `boolean` | false    |
+| Name           | Description                                                                                                              | Type      | Default  |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------ | --------- | -------- |
+| \* id          | Id of style layers in a Mapbox. See more [Mapbox Docs](https://docs.mapbox.com/help/glossary/layer). **Required**        | `string`  | —        |
+| \* accessToken | Access token for loading tiles. See more [Mapbox Docs](https://docs.mapbox.com/help/glossary/access-token). **Required** | `string`  | —        |
+| title          | Name of layer, when used as a child component [layers control](/components/control/layers-control).                      | `string`  | 'Mapbox' |
+| overlay        | Overlay layer, when used as a child component [layers control](/components/control/layers-control).                      | `boolean` | false    |
 
 ### Events
 
