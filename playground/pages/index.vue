@@ -47,7 +47,7 @@ navItems.sort((a, b) => a.order - b.order);
 </script>
 
 <template>
-  <div class="p-4">
+  <div class="h-full p-4 overflow-auto">
     <h1 class="font-semibold text-lg">Examples</h1>
     <ul class="p-2">
       <li v-for="({ title, children }, i) in navItems" :key="i" class="mb-1">

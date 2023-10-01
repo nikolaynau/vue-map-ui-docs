@@ -14,7 +14,7 @@
     "url": "https://github.com/nikolaynau/vuemap.org/issues"
   },
   "lint-staged": {
-    "*.{js,vue,css,scss}": "prettier --write"
+    "*.{js,ts,mts,vue,css,scss,md}": "prettier --write"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -36,6 +36,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@leaflet-extensions/locatecontrol": "^0.0.3",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@vue/eslint-config-prettier": "^8.0.0",
@@ -44,7 +45,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "nuxt": "^3.7.0",
-    "nuxt-vue-map-ui": "^1.0.11",
+    "nuxt-vue-map-ui": "^1.0.15",
     "prettier": "^3.0.3",
     "vitepress": "^1.0.0-rc.10"
   }
