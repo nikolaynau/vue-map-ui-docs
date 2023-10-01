@@ -1,0 +1,13 @@
+import{_ as s,o as a,c as n,Q as o}from"./chunks/framework.0cc98949.js";const _=JSON.parse('{"title":"Volar Support","description":"","frontmatter":{},"headers":[],"relativePath":"guide/advanced/volar.md","filePath":"guide/advanced/volar.md","lastUpdated":1696170745000}'),p={name:"guide/advanced/volar.md"},l=o(`<h1 id="volar-support" tabindex="-1">Volar Support <a class="header-anchor" href="#volar-support" aria-label="Permalink to &quot;Volar Support&quot;">​</a></h1><p>If you use volar, please add the global component type definition to <code>compilerOptions.types</code> in <code>tsconfig.json</code>.</p><div class="language-js vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">js</span><pre class="shiki github-dark vp-code-dark"><code><span class="line"><span style="color:#6A737D;">// tsconfig.json</span></span>
+<span class="line"><span style="color:#E1E4E8;">{</span></span>
+<span class="line"><span style="color:#E1E4E8;">  </span><span style="color:#9ECBFF;">&quot;compilerOptions&quot;</span><span style="color:#E1E4E8;">: {</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#6A737D;">// ...</span></span>
+<span class="line"><span style="color:#E1E4E8;">    </span><span style="color:#9ECBFF;">&quot;types&quot;</span><span style="color:#E1E4E8;">: [</span><span style="color:#9ECBFF;">&quot;vue-map-ui/global&quot;</span><span style="color:#E1E4E8;">]</span></span>
+<span class="line"><span style="color:#E1E4E8;">  }</span></span>
+<span class="line"><span style="color:#E1E4E8;">}</span></span></code></pre><pre class="shiki github-light vp-code-light"><code><span class="line"><span style="color:#6A737D;">// tsconfig.json</span></span>
+<span class="line"><span style="color:#24292E;">{</span></span>
+<span class="line"><span style="color:#24292E;">  </span><span style="color:#032F62;">&quot;compilerOptions&quot;</span><span style="color:#24292E;">: {</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#6A737D;">// ...</span></span>
+<span class="line"><span style="color:#24292E;">    </span><span style="color:#032F62;">&quot;types&quot;</span><span style="color:#24292E;">: [</span><span style="color:#032F62;">&quot;vue-map-ui/global&quot;</span><span style="color:#24292E;">]</span></span>
+<span class="line"><span style="color:#24292E;">  }</span></span>
+<span class="line"><span style="color:#24292E;">}</span></span></code></pre></div>`,3),e=[l];function t(c,r,i,d,E,u){return a(),n("div",null,e)}const v=s(p,[["render",t]]);export{_ as __pageData,v as default};
