@@ -69,3 +69,7 @@ This event extends the [LeafletEvent](https://leafletjs.com/reference.html#event
 | center | [LatLng](https://leafletjs.com/reference.html#latlng)             |
 | zoom   | `number`                                                          |
 | bounds | [LatLngBounds](https://leafletjs.com/reference.html#latlngbounds) |
+
+## LocateControlExtension
+
+[LocateControlExtension](https://github.com/nikolaynau/vue-use-leaflet/blob/master/src/useLeafletLocateControl/extension.ts)
