@@ -1,7 +1,7 @@
 <script setup lang="ts">
 /// <reference types="vite/client" />
 
-import { ref, computed, StyleValue } from 'vue';
+import { ref, computed, type StyleValue } from 'vue';
 import { usePlaygroundTheme } from '../../composables/usePlaygroundTheme';
 import { useExpand } from '../../composables/useExpand';
 import LoadPanel from './LoadPanel.vue';
